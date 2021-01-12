@@ -1,4 +1,13 @@
 ```c
+/******************************************************************************
+
+This program will get user info & display it
+
+Author   : Ayoub Elmendoub
+Version  : 1.0
+Language : C
+License  : MIT
+*******************************************************************************/
 //Ask user info & store user input
 #define ASK(X,PLACEHOLDER) printf("Please enter your " #X " :"); \
                fgets(PLACEHOLDER, sizeof(PLACEHOLDER), stdin);
