@@ -6,7 +6,8 @@ This program will calculate the diameter, the perimeter and the area of a circle
 Author   : Ayoub Elmendoub
 Version  : 1.0
 Language : C
-Licence  : MIT
+License  : MIT
+
 *******************************************************************************/
 #include <stdio.h>
 #include <math.h>
