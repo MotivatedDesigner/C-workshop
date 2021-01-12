@@ -1,4 +1,14 @@
 ```C
+/******************************************************************************
+
+This program will calculate +,-,*,/,% of two integers
+
+Author   : Ayoub Elmendoub
+Version  : 1.0
+Language : C
+License  : MIT
+
+*******************************************************************************/
 #include <stdio.h>
 //Used to desplay error color in red
 #define ANSI_COLOR_RED "\x1b[31m"
