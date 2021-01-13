@@ -27,7 +27,7 @@ License  : MIT
 //Get user input & Handle character as an input case
 #define ASK_NUMBER(X) while(1){\
         printf(" Please enter the value of "#X": ");\
-        if (scanf("%d",&X)  != 1){\
+        if (scanf("%f",&X)  != 1){\
             printf(ANSI_COLOR_RED " This is not a valid number\n" ANSI_COLOR_RESET);\
             int c;\
             while ((c = getchar()) != EOF && c != '\n');}\
@@ -35,7 +35,7 @@ License  : MIT
         
 int main()
 {
-    int a,b;
+    float a,b;
     //Ask for user input ( a & b )
     ASK_NUMBER(a);
     ASK_NUMBER(b);
