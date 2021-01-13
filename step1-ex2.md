@@ -13,7 +13,7 @@ License  : MIT
 //Used to desplay error color in red
 #define ANSI_COLOR_RED "\x1b[31m"
 #define ANSI_COLOR_RESET "\x1b[0m"
-//Handle character as an input
+//Get user input & Handle character as an input case
 #define ASK_INT(X) while(1){\
         printf("\n Please enter the value of "#X": ");\
         if (scanf("%d",&X)  != 1){\
