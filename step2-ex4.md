@@ -67,7 +67,7 @@ int main()
 ```c
 /******************************************************************************
 
-This program calculate the GCD of two integers entered by the user (Recurcive)
+This program calculate the GCD of two integers entered by the user (Iterative)
 
 Author   : Ayoub Elmendoub
 Version  : 1.0
